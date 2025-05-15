@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+}
+
+header {
+  background: url('bbq-background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.socials img {
+  width: 20px;
+  margin-left: 1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background: none;
+  border: 2px solid #e5e5e5;
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #e5e5e5;
+  color: #1e1e1e;
+}
